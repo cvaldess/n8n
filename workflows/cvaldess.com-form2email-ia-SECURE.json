@@ -1,0 +1,23 @@
+{
+  "id": "i2fqZyIsXmwdZdfPiD4FJ",
+  "name": "cvaldess.com-form2email-ia-SECURE",
+  "active": true,
+  "isArchived": false,
+  "versionId": "2d98c587-d2f7-43f5-b4c3-e36209abf740",
+  "triggerCount": 1,
+  "createdAt": "2026-01-10T06:02:28.670Z",
+  "updatedAt": "2026-01-15T14:24:24.780Z",
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": true,
+    "timeSavedMode": "fixed",
+    "callerPolicy": "workflowsFromSameOwner"
+  },
+  "webhook": {
+    "baseUrl": "https://n8n.cvaldess.com/",
+    "productionPath": "/webhook/form-validator-secure",
+    "testPath": "/webhook-test/form-validator-secure",
+    "httpMethod": "POST",
+    "responseMode": "responseNode"
+  }
+}
